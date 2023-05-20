@@ -181,6 +181,13 @@ theme.set_highlights = function()
 
   -- DevIcons
   hl(0, "DevIconLua", { fg = c.purple3, bg = 'NONE' })
+
+  -- Alpha
+  hl(0, "AlphaShortcut", { fg = c.sign_add, bg = 'NONE' })
+  hl(0, "AlphaHeader", { fg = c.title, bg = 'NONE'})
+  hl(0, "AlphaHeaderLabel", { fg = c.purple, bg = 'NONE' })
+  hl(0, "AlphaButtons", { fg = c.dark_white, bg = 'NONE'})
+  hl(0, "AlphaFooter", { fg = c.magenta, bg = 'NONE', italic=true })
 end
 
 return theme
